@@ -29,6 +29,7 @@
                 <configuration>
                     <tagNameFormat>@{project.version}</tagNameFormat>
                     <goals>deploy</goals>
+                    <arguments>-Dmaven.javadoc.skip=true</arguments>
                 </configuration>
             </plugin>
             <plugin>
