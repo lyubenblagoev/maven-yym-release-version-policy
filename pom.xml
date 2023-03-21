@@ -4,7 +4,7 @@
 
     <groupId>com.lyubenblagoev</groupId>
     <artifactId>maven-release-version-policy</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Maven YY.M.fix Release Version Policy</name>
     <description>
