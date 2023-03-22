@@ -1,8 +1,10 @@
 package com.lyubenblagoev.maven.release.version;
 
-import java.util.stream.Stream;
-
 import org.codehaus.plexus.util.StringUtils;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class YYMZVersion {
 
@@ -35,8 +37,17 @@ public class YYMZVersion {
 
     @Override
     public String toString() {
-        String[] parts =
-                new String[] {String.valueOf(major), String.valueOf(minor), patch > 0 ? String.valueOf(patch) : ""};
-        return String.join(".", Stream.of(parts).filter(StringUtils::isNotBlank).toList());
+        return String.join(".", versionStringList());
+    }
+
+    private List<String> versionStringList() {
+        String[] parts = new String[]{
+                String.valueOf(major),
+                String.valueOf(minor),
+                patch > 0 ? String.valueOf(patch) : ""
+        };
+        return Stream.of(parts)
+                .filter(StringUtils::isNotBlank)
+                .collect(Collectors.toList());
     }
 }
