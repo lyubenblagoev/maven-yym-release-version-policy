@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lyubenblagoev</groupId>
-    <artifactId>maven-release-version-policy</artifactId>
+    <artifactId>maven-yymz-release-version-policy</artifactId>
     <version>1.0.3-SNAPSHOT</version>
 
     <name>Maven YY.M.fix Release Version Policy</name>
