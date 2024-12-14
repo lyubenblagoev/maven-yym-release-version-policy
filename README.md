@@ -52,8 +52,8 @@ To configure the maven-release-plugin with the YYMZVersionPolicy and version tag
     <version>3.0.0</version>
     <dependencies>
         <dependency>
-            <groupId>com.lyubenblagoevcom.lyubenblagoev</groupId>
-            <artifactId>maven-release-version-policy</artifactId>
+            <groupId>com.lyubenblagoev</groupId>
+            <artifactId>maven-yymz-release-version-policy</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
