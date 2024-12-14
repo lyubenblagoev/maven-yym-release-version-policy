@@ -10,6 +10,27 @@
     <description>
         Release version policy for use with Maven's maven-release-plugin, specifies a version scheme: YY.M[.increment]
     </description>
+    <url>https://github.com/lyubenblagoev/maven-yymz-release-version-policy</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Lyuben Blagoev</name>
+            <email>lblagoev@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/lyubenblagoev/maven-yymz-release-version-policy.git</connection>
+        <developerConnection>scm:git:ssh://github.com:lyubenblagoev/maven-yymz-release-version-policy.git</developerConnection>
+        <url>https://github.com/lyubenblagoev/maven-yymz-release-version-policy/tree/master</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
